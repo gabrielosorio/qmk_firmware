@@ -1,10 +1,10 @@
 #pragma once
 
 #ifdef AUDIO_ENABLE
-    #define CUSTOM_STARTUP_SOUND E__NOTE(_GS7), Q__NOTE(_A7), Q__NOTE(_REST), H__NOTE(_F7)
+    // #define CUSTOM_STARTUP_SOUND E__NOTE(_GS7), Q__NOTE(_A7), Q__NOTE(_REST), H__NOTE(_F7)
 
-    #define STARTUP_SONG SONG(CUSTOM_STARTUP_SOUND)
-    // #define STARTUP_SONG SONG(NO_SOUND)
+    // #define STARTUP_SONG SONG(CUSTOM_STARTUP_SOUND)
+    #define STARTUP_SONG SONG(NO_SOUND)
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
                                   SONG(COLEMAK_SOUND), \

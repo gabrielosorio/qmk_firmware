@@ -13,7 +13,7 @@
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 3
+#define DEBOUNCE 4
 
 #define MUSIC_MASK (keycode != KC_NO)
 
